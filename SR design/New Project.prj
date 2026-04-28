@@ -1,0 +1,2787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DriveProblems>
+    <Design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <DatabaseId>-1</DatabaseId>
+      <ID>059df69b-975a-471b-a0f2-2ad6def3f355</ID>
+      <Name>AFW 02 belt planning</Name>
+      <Description />
+      <ModuleID>C0525104-8CFE-4718-A6FC-9A7B27220991</ModuleID>
+      <Settings type="DesignIQ.Model.DesignIQSettings, DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+        <DesignIQSettings>
+          <CultureName>en-US</CultureName>
+          <NumberFormat>
+            <CurrencyDecimalDigits>2</CurrencyDecimalDigits>
+            <CurrencyDecimalSeparator>.</CurrencyDecimalSeparator>
+            <CurrencyGroupSizes>
+              <int>3</int>
+            </CurrencyGroupSizes>
+            <NumberGroupSizes>
+              <int>3</int>
+            </NumberGroupSizes>
+            <PercentGroupSizes>
+              <int>3</int>
+            </PercentGroupSizes>
+            <CurrencyGroupSeparator>,</CurrencyGroupSeparator>
+            <CurrencySymbol>??</CurrencySymbol>
+            <NaNSymbol>NaN</NaNSymbol>
+            <CurrencyNegativePattern>1</CurrencyNegativePattern>
+            <NumberNegativePattern>1</NumberNegativePattern>
+            <PercentPositivePattern>1</PercentPositivePattern>
+            <PercentNegativePattern>1</PercentNegativePattern>
+            <NegativeInfinitySymbol>-???</NegativeInfinitySymbol>
+            <NegativeSign>-</NegativeSign>
+            <NumberDecimalDigits>3</NumberDecimalDigits>
+            <NumberDecimalSeparator>.</NumberDecimalSeparator>
+            <NumberGroupSeparator>,</NumberGroupSeparator>
+            <CurrencyPositivePattern>0</CurrencyPositivePattern>
+            <PositiveInfinitySymbol>???</PositiveInfinitySymbol>
+            <PositiveSign>+</PositiveSign>
+            <PercentDecimalDigits>3</PercentDecimalDigits>
+            <PercentDecimalSeparator>.</PercentDecimalSeparator>
+            <PercentGroupSeparator>,</PercentGroupSeparator>
+            <PercentSymbol>%</PercentSymbol>
+            <PerMilleSymbol>???</PerMilleSymbol>
+            <NativeDigits>
+              <string>0</string>
+              <string>1</string>
+              <string>2</string>
+              <string>3</string>
+              <string>4</string>
+              <string>5</string>
+              <string>6</string>
+              <string>7</string>
+              <string>8</string>
+              <string>9</string>
+            </NativeDigits>
+            <DigitSubstitution>None</DigitSubstitution>
+          </NumberFormat>
+          <DocumentPageSizeUnitToHundredthsOfInchRelation>1</DocumentPageSizeUnitToHundredthsOfInchRelation>
+          <DocumentPageMargins>
+            <Bottom>50</Bottom>
+            <Left>50</Left>
+            <Right>50</Right>
+            <Top>50</Top>
+          </DocumentPageMargins>
+          <DocumentPageSize>
+            <Width>850</Width>
+            <Height>1100</Height>
+          </DocumentPageSize>
+          <DocumentPageIsLandscape>false</DocumentPageIsLandscape>
+          <CurrentUnitScheme type="Common.DesignIQ.Units.UnitScheme, Common.DesignIQ.Windows, Version=0.0.0.1, Culture=neutral, PublicKeyToken=null">
+            <UnitScheme>
+              <IsMetric>true</IsMetric>
+              <Name>Metric</Name>
+              <UnitsReadOnly>true</UnitsReadOnly>
+              <CurrentAngleUnits>deg</CurrentAngleUnits>
+              <AnglePrecisionDec>2</AnglePrecisionDec>
+              <CurrentDensityUnits>gpercubiccm</CurrentDensityUnits>
+              <DensityPrecisionDec>1</DensityPrecisionDec>
+              <CurrentForceUnits>N</CurrentForceUnits>
+              <ForcePrecisionDec>2</ForcePrecisionDec>
+              <CurrentLengthUnits>mm</CurrentLengthUnits>
+              <LengthPrecisionDec>2</LengthPrecisionDec>
+              <CurrentPowerUnits>kw</CurrentPowerUnits>
+              <PowerPrecisionDec>2</PowerPrecisionDec>
+              <CurrentTemperatureUnits>C</CurrentTemperatureUnits>
+              <TemperaturePrecisionDec>1</TemperaturePrecisionDec>
+              <CurrentTorqueUnits>Nm</CurrentTorqueUnits>
+              <TorquePrecisionDec>1</TorquePrecisionDec>
+              <CurrentSpeedUnits>MetersPerSec</CurrentSpeedUnits>
+              <SpeedPrecisionDec>1</SpeedPrecisionDec>
+            </UnitScheme>
+          </CurrentUnitScheme>
+          <ListItems />
+          <ModuleDisplayName>Design IQ</ModuleDisplayName>
+          <ModuleId>C0525104-8CFE-4718-A6FC-9A7B27220991</ModuleId>
+          <ModuleVersion>6.70.0.0</ModuleVersion>
+          <DiagnosticMode>false</DiagnosticMode>
+          <BackgroundColor>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </BackgroundColor>
+          <IsInitialized>false</IsInitialized>
+          <SnapGridOn>false</SnapGridOn>
+          <SnapGrid>10</SnapGrid>
+          <SnapDiaMode>NoSnap</SnapDiaMode>
+          <SnapDiameter>10</SnapDiameter>
+          <SnapIdlerAngleOn>false</SnapIdlerAngleOn>
+          <SnapIdlerAngle>10</SnapIdlerAngle>
+          <SMode>RestrictedMode</SMode>
+          <ZMode>MousePoint</ZMode>
+          <SmoothingMode>AntiAlias</SmoothingMode>
+          <ShowOutsideDia>true</ShowOutsideDia>
+          <DirectionOfNumbering>CounterClockwise</DirectionOfNumbering>
+          <StandardInstallation>false</StandardInstallation>
+          <ShowDisplayHubloadToArm>false</ShowDisplayHubloadToArm>
+        </DesignIQSettings>
+      </Settings>
+      <DesignProblem type="Common.DesignIQ.Model.DesignIqApplicationData, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+        <DesignIqApplicationData>
+          <DriveData>
+            <BeltBase type="Common.Models.Base.BeltBase, Common.Models, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+              <BeltBase>
+                <Name>Custom</Name>
+                <ProductLine />
+                <XSect />
+                <PartNumber />
+                <BeltModulus>0</BeltModulus>
+                <CordDiameter>0</CordDiameter>
+                <PDOD>0</PDOD>
+                <CTE>0</CTE>
+                <Thickness>0</Thickness>
+                <TopWidth>0</TopWidth>
+                <VAngle>0</VAngle>
+                <BackWear>0</BackWear>
+                <FrontWear>0</FrontWear>
+                <LinearDensity>0</LinearDensity>
+                <PitchLength>0</PitchLength>
+                <ConversionConstants>
+                  <Std_DDOD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Std_DDOD>
+                  <Std_DDPD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Std_DDPD>
+                  <Synch_PDOD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Synch_PDOD>
+                  <BeltPitch Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </BeltPitch>
+                  <A_PD_Adj Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </A_PD_Adj>
+                  <A_OD_Adj Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </A_OD_Adj>
+                  <Adj_At Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Adj_At>
+                  <Abs_Std_DDOD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Abs_Std_DDOD>
+                  <Abs_Std_DDPD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Abs_Std_DDPD>
+                </ConversionConstants>
+                <ToothStiffness>0</ToothStiffness>
+                <OriginalPitch>0</OriginalPitch>
+                <PitchModifier>0</PitchModifier>
+                <CordsPerInch>0</CordsPerInch>
+              </BeltBase>
+            </BeltBase>
+            <Pulleys>
+              <Pulley type="Common.DesignIQ.Model.Engine.Pulley, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                <Pulley>
+                  <index>0</index>
+                  <Id>840aa2c7-7af2-448e-a6a1-8b7fa1c804fc</Id>
+                  <Name />
+                  <Material />
+                  <Coating />
+                  <Center>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <IsDirty>false</IsDirty>
+                  </Center>
+                  <Diameter Type="outside">
+                    <Dia Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Dia>
+                    <Teeth>0</Teeth>
+                  </Diameter>
+                  <DiameterValue>0</DiameterValue>
+                  <DiameterType>outside</DiameterType>
+                  <ConversionConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                  </ConversionConstants>
+                  <WrapType>InsideGrooved</WrapType>
+                  <WrapTypeString>InsideGrooved</WrapTypeString>
+                  <IO>Inside</IO>
+                  <Grooved>true</Grooved>
+                  <CoefficientOfFriction>0</CoefficientOfFriction>
+                  <SheaveAngle>0</SheaveAngle>
+                  <WrapAngle>0</WrapAngle>
+                  <ShaftDiameter>0</ShaftDiameter>
+                  <Warnings />
+                  <RefDia Value="112.04507993669432" Units="mm">
+                    <UnitsValue>112.04507993669432</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">mm</UnitsType>
+                    <UnitsTypeStr>mm</UnitsTypeStr>
+                  </RefDia>
+                  <Teeth>32</Teeth>
+                  <RefDiaType>Grooves</RefDiaType>
+                  <GeometryUnitTypes>inch</GeometryUnitTypes>
+                  <PulleyClass>SYN</PulleyClass>
+                  <PartNo />
+                  <IdlerNo>0</IdlerNo>
+                  <ShaftDiaUnits>mm</ShaftDiaUnits>
+                  <Flanged>false</Flanged>
+                  <FlangeOD>0</FlangeOD>
+                  <AllowableTR>0</AllowableTR>
+                  <Label />
+                  <IsAttached>true</IsAttached>
+                  <HighestTension>0</HighestTension>
+                  <PulleyNum>0</PulleyNum>
+                  <ProductNumber />
+                  <Bushing />
+                  <Width>0</Width>
+                  <PDtoOD>-1.840000033378601</PDtoOD>
+                  <PDtoND>0</PDtoND>
+                  <PDtoED>0</PDtoED>
+                  <PulleyType>0</PulleyType>
+                  <PulleyID>1</PulleyID>
+                  <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                  <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                  <NDtoED>0</NDtoED>
+                  <NDtoPD>-0</NDtoPD>
+                  <BeltPitch>11</BeltPitch>
+                  <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  <DiameterConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                    <ID>0</ID>
+                    <Description />
+                    <PDtoOD>-1.840000033378601</PDtoOD>
+                    <PDtoND>0</PDtoND>
+                    <PDtoED>0</PDtoED>
+                    <GrooveAngle>0</GrooveAngle>
+                    <GrooveTopWidth>0</GrooveTopWidth>
+                    <PinDiameter>0</PinDiameter>
+                    <NDtoED>0</NDtoED>
+                    <NDtoPD>-0</NDtoPD>
+                    <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                    <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                    <BeltPitchValue>11</BeltPitchValue>
+                    <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  </DiameterConstants>
+                  <WarningLevel>None</WarningLevel>
+                </Pulley>
+              </Pulley>
+              <Pulley type="Common.DesignIQ.Model.Engine.Pulley, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                <Pulley>
+                  <index>0</index>
+                  <Id>ad5b1bc6-1f74-4de6-b417-fadd7bcba963</Id>
+                  <Name />
+                  <Material />
+                  <Coating />
+                  <Center>
+                    <X>84.99999999999999</X>
+                    <Y>0</Y>
+                    <IsDirty>false</IsDirty>
+                  </Center>
+                  <Diameter Type="outside">
+                    <Dia Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Dia>
+                    <Teeth>0</Teeth>
+                  </Diameter>
+                  <DiameterValue>0</DiameterValue>
+                  <DiameterType>outside</DiameterType>
+                  <ConversionConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                  </ConversionConstants>
+                  <WrapType>BacksideFlat</WrapType>
+                  <WrapTypeString>BacksideFlat</WrapTypeString>
+                  <IO>Outside</IO>
+                  <Grooved>false</Grooved>
+                  <CoefficientOfFriction>0</CoefficientOfFriction>
+                  <SheaveAngle>0</SheaveAngle>
+                  <WrapAngle>0</WrapAngle>
+                  <ShaftDiameter>0</ShaftDiameter>
+                  <Warnings />
+                  <RefDia Value="52" Units="mm">
+                    <UnitsValue>52</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">mm</UnitsType>
+                    <UnitsTypeStr>mm</UnitsTypeStr>
+                  </RefDia>
+                  <Teeth>16</Teeth>
+                  <RefDiaType>OD</RefDiaType>
+                  <GeometryUnitTypes>inch</GeometryUnitTypes>
+                  <PulleyClass>SYN</PulleyClass>
+                  <PartNo />
+                  <IdlerNo>1</IdlerNo>
+                  <ShaftDiaUnits>mm</ShaftDiaUnits>
+                  <Flanged>false</Flanged>
+                  <FlangeOD>0</FlangeOD>
+                  <AllowableTR>0</AllowableTR>
+                  <Label />
+                  <IsAttached>true</IsAttached>
+                  <HighestTension>0</HighestTension>
+                  <PulleyNum>0</PulleyNum>
+                  <ProductNumber />
+                  <Bushing />
+                  <Width>0</Width>
+                  <PDtoOD>-1.840000033378601</PDtoOD>
+                  <PDtoND>0</PDtoND>
+                  <PDtoED>0</PDtoED>
+                  <PulleyType>0</PulleyType>
+                  <PulleyID>1</PulleyID>
+                  <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                  <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                  <NDtoED>0</NDtoED>
+                  <NDtoPD>-0</NDtoPD>
+                  <BeltPitch>11</BeltPitch>
+                  <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  <DiameterConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                    <ID>0</ID>
+                    <Description />
+                    <PDtoOD>-1.840000033378601</PDtoOD>
+                    <PDtoND>0</PDtoND>
+                    <PDtoED>0</PDtoED>
+                    <GrooveAngle>0</GrooveAngle>
+                    <GrooveTopWidth>0</GrooveTopWidth>
+                    <PinDiameter>0</PinDiameter>
+                    <NDtoED>0</NDtoED>
+                    <NDtoPD>-0</NDtoPD>
+                    <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                    <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                    <BeltPitchValue>11</BeltPitchValue>
+                    <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  </DiameterConstants>
+                  <WarningLevel>None</WarningLevel>
+                </Pulley>
+              </Pulley>
+              <Pulley type="Common.DesignIQ.Model.Engine.Pulley, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                <Pulley>
+                  <index>0</index>
+                  <Id>72142baa-013d-407d-8f50-8c0b7e1e1fb6</Id>
+                  <Name />
+                  <Material />
+                  <Coating />
+                  <Center>
+                    <X>-440</X>
+                    <Y>40</Y>
+                    <IsDirty>false</IsDirty>
+                  </Center>
+                  <Diameter Type="outside">
+                    <Dia Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Dia>
+                    <Teeth>0</Teeth>
+                  </Diameter>
+                  <DiameterValue>0</DiameterValue>
+                  <DiameterType>outside</DiameterType>
+                  <ConversionConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                  </ConversionConstants>
+                  <WrapType>InsideGrooved</WrapType>
+                  <WrapTypeString>InsideGrooved</WrapTypeString>
+                  <IO>Inside</IO>
+                  <Grooved>true</Grooved>
+                  <CoefficientOfFriction>0</CoefficientOfFriction>
+                  <SheaveAngle>0</SheaveAngle>
+                  <WrapAngle>0</WrapAngle>
+                  <ShaftDiameter>0</ShaftDiameter>
+                  <Warnings />
+                  <RefDia Value="0" Units="mm">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">mm</UnitsType>
+                    <UnitsTypeStr>mm</UnitsTypeStr>
+                  </RefDia>
+                  <Teeth>32</Teeth>
+                  <RefDiaType>Grooves</RefDiaType>
+                  <GeometryUnitTypes>inch</GeometryUnitTypes>
+                  <PulleyClass>SYN</PulleyClass>
+                  <PartNo />
+                  <IdlerNo>0</IdlerNo>
+                  <ShaftDiaUnits>mm</ShaftDiaUnits>
+                  <Flanged>false</Flanged>
+                  <FlangeOD>0</FlangeOD>
+                  <AllowableTR>0</AllowableTR>
+                  <Label />
+                  <IsAttached>true</IsAttached>
+                  <HighestTension>0</HighestTension>
+                  <PulleyNum>0</PulleyNum>
+                  <ProductNumber />
+                  <Bushing />
+                  <Width>0</Width>
+                  <PDtoOD>-1.840000033378601</PDtoOD>
+                  <PDtoND>0</PDtoND>
+                  <PDtoED>0</PDtoED>
+                  <PulleyType>0</PulleyType>
+                  <PulleyID>1</PulleyID>
+                  <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                  <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                  <NDtoED>0</NDtoED>
+                  <NDtoPD>-0</NDtoPD>
+                  <BeltPitch>11</BeltPitch>
+                  <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  <DiameterConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                    <ID>0</ID>
+                    <Description />
+                    <PDtoOD>-1.840000033378601</PDtoOD>
+                    <PDtoND>0</PDtoND>
+                    <PDtoED>0</PDtoED>
+                    <GrooveAngle>0</GrooveAngle>
+                    <GrooveTopWidth>0</GrooveTopWidth>
+                    <PinDiameter>0</PinDiameter>
+                    <NDtoED>0</NDtoED>
+                    <NDtoPD>-0</NDtoPD>
+                    <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                    <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                    <BeltPitchValue>11</BeltPitchValue>
+                    <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  </DiameterConstants>
+                  <WarningLevel>None</WarningLevel>
+                </Pulley>
+              </Pulley>
+              <Pulley type="Common.DesignIQ.Model.Engine.Pulley, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                <Pulley>
+                  <index>0</index>
+                  <Id>f060b5b0-01a7-4deb-add8-a9eb6743912f</Id>
+                  <Name />
+                  <Material />
+                  <Coating />
+                  <Center>
+                    <X>71.5</X>
+                    <Y>119</Y>
+                    <IsDirty>false</IsDirty>
+                  </Center>
+                  <Diameter Type="outside">
+                    <Dia Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Dia>
+                    <Teeth>0</Teeth>
+                  </Diameter>
+                  <DiameterValue>0</DiameterValue>
+                  <DiameterType>outside</DiameterType>
+                  <ConversionConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                  </ConversionConstants>
+                  <WrapType>InsideGrooved</WrapType>
+                  <WrapTypeString>InsideGrooved</WrapTypeString>
+                  <IO>Inside</IO>
+                  <Grooved>true</Grooved>
+                  <CoefficientOfFriction>0</CoefficientOfFriction>
+                  <SheaveAngle>0</SheaveAngle>
+                  <WrapAngle>0</WrapAngle>
+                  <ShaftDiameter>0</ShaftDiameter>
+                  <Warnings />
+                  <RefDia Value="0" Units="mm">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">mm</UnitsType>
+                    <UnitsTypeStr>mm</UnitsTypeStr>
+                  </RefDia>
+                  <Teeth>22</Teeth>
+                  <RefDiaType>Grooves</RefDiaType>
+                  <GeometryUnitTypes>inch</GeometryUnitTypes>
+                  <PulleyClass>SYN</PulleyClass>
+                  <PartNo />
+                  <IdlerNo>0</IdlerNo>
+                  <ShaftDiaUnits>mm</ShaftDiaUnits>
+                  <Flanged>false</Flanged>
+                  <FlangeOD>0</FlangeOD>
+                  <AllowableTR>0</AllowableTR>
+                  <Label />
+                  <IsAttached>true</IsAttached>
+                  <HighestTension>0</HighestTension>
+                  <PulleyNum>0</PulleyNum>
+                  <ProductNumber />
+                  <Bushing />
+                  <Width>0</Width>
+                  <PDtoOD>-1.840000033378601</PDtoOD>
+                  <PDtoND>0</PDtoND>
+                  <PDtoED>0</PDtoED>
+                  <PulleyType>0</PulleyType>
+                  <PulleyID>1</PulleyID>
+                  <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                  <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                  <NDtoED>0</NDtoED>
+                  <NDtoPD>-0</NDtoPD>
+                  <BeltPitch>11</BeltPitch>
+                  <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  <DiameterConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                    <ID>0</ID>
+                    <Description />
+                    <PDtoOD>-1.840000033378601</PDtoOD>
+                    <PDtoND>0</PDtoND>
+                    <PDtoED>0</PDtoED>
+                    <GrooveAngle>0</GrooveAngle>
+                    <GrooveTopWidth>0</GrooveTopWidth>
+                    <PinDiameter>0</PinDiameter>
+                    <NDtoED>0</NDtoED>
+                    <NDtoPD>-0</NDtoPD>
+                    <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                    <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                    <BeltPitchValue>11</BeltPitchValue>
+                    <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  </DiameterConstants>
+                  <WarningLevel>None</WarningLevel>
+                </Pulley>
+              </Pulley>
+            </Pulleys>
+            <Idlers />
+            <Conditions />
+            <Notes />
+            <Spans>
+              <Vector2D>
+                <Tail>
+                  <X>-55.20493679523791</X>
+                  <Y>-9.536243387143701</Y>
+                  <IsDirty>false</IsDirty>
+                </Tail>
+                <Tip>
+                  <X>-65.85202625171716</X>
+                  <Y>52.099337484312</Y>
+                  <IsDirty>false</IsDirty>
+                </Tip>
+                <Length>62.5484239869881</Length>
+                <Angle>1.741850819143495</Angle>
+                <IsDirty>false</IsDirty>
+              </Vector2D>
+              <Vector2D>
+                <Tail>
+                  <X>-104.28356657311114</X>
+                  <Y>76.23212262286175</Y>
+                  <IsDirty>false</IsDirty>
+                </Tail>
+                <Tip>
+                  <X>-419.6084716299602</X>
+                  <Y>-13.866741491754595</Y>
+                  <IsDirty>false</IsDirty>
+                </Tip>
+                <Length>327.94450912289255</Length>
+                <Angle>3.4199100043992425</Angle>
+                <IsDirty>false</IsDirty>
+              </Vector2D>
+              <Vector2D>
+                <Tail>
+                  <X>-441.73813022796105</X>
+                  <Y>95.61584833063407</Y>
+                  <IsDirty>false</IsDirty>
+                </Tail>
+                <Tip>
+                  <X>66.86753546827674</X>
+                  <Y>157.23589572731115</Y>
+                  <IsDirty>false</IsDirty>
+                </Tip>
+                <Length>512.3248514560678</Length>
+                <Angle>0.12056723450318106</Angle>
+                <IsDirty>false</IsDirty>
+              </Vector2D>
+              <Vector2D>
+                <Tail>
+                  <X>106.7524512659449</X>
+                  <Y>103.48522866911512</Y>
+                  <IsDirty>false</IsDirty>
+                </Tail>
+                <Tip>
+                  <X>51.27629275046532</X>
+                  <Y>-22.56694011765073</Y>
+                  <IsDirty>false</IsDirty>
+                </Tip>
+                <Length>137.71983669566967</Length>
+                <Angle>4.297794347578692</Angle>
+                <IsDirty>false</IsDirty>
+              </Vector2D>
+            </Spans>
+            <Frames>
+              <Frame>
+                <FrameVector>
+                  <Tail>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <IsDirty>false</IsDirty>
+                  </Tail>
+                  <Tip>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <IsDirty>false</IsDirty>
+                  </Tip>
+                  <Length>0</Length>
+                  <Angle>0</Angle>
+                  <IsDirty>false</IsDirty>
+                </FrameVector>
+                <ParentFrame>0</ParentFrame>
+              </Frame>
+              <Frame xsi:type="PivotIdler">
+                <FrameVector>
+                  <Tail>
+                    <X>-53.51</X>
+                    <Y>-42.53</Y>
+                    <IsDirty>false</IsDirty>
+                  </Tail>
+                  <Tip>
+                    <X>-75.25157432854269</X>
+                    <Y>39.642403796630234</Y>
+                    <IsDirty>false</IsDirty>
+                  </Tip>
+                  <Length>84.99999999999999</Length>
+                  <Angle>1.8294541219404559</Angle>
+                  <IsDirty>false</IsDirty>
+                </FrameVector>
+                <ParentFrame>0</ParentFrame>
+                <CurrentPosition>0.07566839267436799</CurrentPosition>
+                <MaxPosition>0.8443902921148567</MaxPosition>
+                <MinPosition>0</MinPosition>
+                <IdlerExtremes type="Common.DesignIQ.Engine.IdlerInstTUExtremes, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                  <IdlerInstTUExtremes>
+                    <MinLengthPosition>0.8359463891937081</MinLengthPosition>
+                    <MaxLengthPosition>0</MaxLengthPosition>
+                    <MaxLength>1516.277985330209</MaxLength>
+                    <MinLength>1438.566801569879</MinLength>
+                    <AllowPastRecommendedExtents>true</AllowPastRecommendedExtents>
+                    <IsCalculated>true</IsCalculated>
+                    <InstallPosition>0.07566839267436799</InstallPosition>
+                    <TakeUpPosition>0.013617125785084179</TakeUpPosition>
+                    <InstallLength>1506.9999944144133</InstallLength>
+                    <TakeUpLength>1514.5349943864853</TakeUpLength>
+                    <MinInstallPosition>0.8359462895411329</MinInstallPosition>
+                    <MaxTakeUpPosition>0.06097850691770448</MaxTakeUpPosition>
+                    <MinInstallLength>1438.566801569879</MinInstallLength>
+                    <MaxTakeupLength>1508.7343137614023</MaxTakeupLength>
+                  </IdlerInstTUExtremes>
+                </IdlerExtremes>
+                <SpringLoaded>true</SpringLoaded>
+                <IsFixed>false</IsFixed>
+              </Frame>
+            </Frames>
+            <Warnings />
+            <Customer>
+              <PersonId>970cc247-d157-48f1-8a33-7fbaf264b457</PersonId>
+              <FirstName />
+              <ModuleName />
+              <LastName />
+              <IsBlank>true</IsBlank>
+              <Title />
+              <EmailAddress />
+              <Company />
+              <Division />
+              <Phone />
+              <Fax />
+              <Address1 />
+              <Address2 />
+              <City />
+              <State>
+                <StateCode />
+                <LocalName />
+                <CountryCode />
+              </State>
+              <ZipCode />
+              <Location />
+              <BuildingName />
+              <UserName />
+              <Country>
+                <CountryCode />
+                <Market />
+                <EnglishName />
+                <LocalName />
+                <ProductMarket />
+                <States />
+              </Country>
+              <IsTermsAndPrivacyChecked>false</IsTermsAndPrivacyChecked>
+              <IsAgreeToContact>false</IsAgreeToContact>
+              <IsContactByEmail>false</IsContactByEmail>
+              <IsContactByPhone>false</IsContactByPhone>
+              <IsShareableCustomer>false</IsShareableCustomer>
+            </Customer>
+            <DriveBelt>
+              <BeltID>PCC_11M_CDX</BeltID>
+              <BeltFamily>Bicycle Belt Drive</BeltFamily>
+              <BeltSection>11M CDX</BeltSection>
+              <Width_Units>WidthUnitsMillimeters</Width_Units>
+              <BeltWidth>0</BeltWidth>
+              <WidthInput>false</WidthInput>
+            </DriveBelt>
+            <DefaultBeltConstants>
+              <Std_DDOD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Std_DDOD>
+              <Std_DDPD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Std_DDPD>
+              <Synch_PDOD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Synch_PDOD>
+              <BeltPitch Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </BeltPitch>
+              <A_PD_Adj Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </A_PD_Adj>
+              <A_OD_Adj Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </A_OD_Adj>
+              <Adj_At Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Adj_At>
+              <Abs_Std_DDOD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Abs_Std_DDOD>
+              <Abs_Std_DDPD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Abs_Std_DDPD>
+              <ID>0</ID>
+              <Description />
+              <PDtoOD>0</PDtoOD>
+              <PDtoND>0</PDtoND>
+              <PDtoED>0</PDtoED>
+              <GrooveAngle>0</GrooveAngle>
+              <GrooveTopWidth>0</GrooveTopWidth>
+              <PinDiameter>0</PinDiameter>
+              <NDtoED>0</NDtoED>
+              <NDtoPD>0</NDtoPD>
+              <PLDInsideFlat>0</PLDInsideFlat>
+              <PLDBackFlat>0</PLDBackFlat>
+              <BeltPitchValue>0</BeltPitchValue>
+              <BeltDiaTypeIn>PD</BeltDiaTypeIn>
+            </DefaultBeltConstants>
+            <PermissionLevel>1</PermissionLevel>
+            <DriveTension>
+              <DesiredForceOK>false</DesiredForceOK>
+              <DesiredDeflectionOK>false</DesiredDeflectionOK>
+              <NoBeltsToDeflect>0</NoBeltsToDeflect>
+              <Nominal>0</Nominal>
+              <NewMax>0</NewMax>
+              <NewMin>0</NewMin>
+              <OldMax>0</OldMax>
+              <OldMin>0</OldMin>
+              <TensionMethod>ForceDeflect</TensionMethod>
+              <SpanNo>0</SpanNo>
+              <TensionPerBelt>false</TensionPerBelt>
+              <DefaultsCalculated>false</DefaultsCalculated>
+              <UseDefaultValues>true</UseDefaultValues>
+            </DriveTension>
+            <ActiveIdler>1</ActiveIdler>
+            <DirOfNumbering>Clockwise</DirOfNumbering>
+            <DirOfRotation>CW</DirOfRotation>
+            <CurrentPulley>1</CurrentPulley>
+            <ID />
+            <Description />
+            <CurrentSpan>-1</CurrentSpan>
+            <DriveWarnings />
+            <PulleyWarnings />
+            <AllWarnings />
+          </DriveData>
+        </DesignIqApplicationData>
+      </DesignProblem>
+      <Vehicle>
+        <VehicleId />
+        <Year>2026</Year>
+        <Manufacturer />
+        <Model />
+        <Engine />
+        <EngineCCs>0</EngineCCs>
+        <Acceleration>1344</Acceleration>
+        <MaxPeakShockLoad>1196</MaxPeakShockLoad>
+        <Mass>0</Mass>
+        <RidersMass>0</RidersMass>
+        <FrontWheelDiameter>0</FrontWheelDiameter>
+        <BackWheelDiameter>0</BackWheelDiameter>
+        <FrontWheelMMOI>0.68</FrontWheelMMOI>
+        <BackWheelMMOI>0.89</BackWheelMMOI>
+        <SecondaryDR>2.5</SecondaryDR>
+        <FrontWheelMass>0</FrontWheelMass>
+        <BackWheelMass>0</BackWheelMass>
+      </Vehicle>
+      <Customer>
+        <PersonId>056672df-8730-4d58-8d4a-1ef30b81cb66</PersonId>
+        <FirstName />
+        <ModuleName />
+        <LastName />
+        <IsBlank>true</IsBlank>
+        <Title />
+        <EmailAddress />
+        <Company />
+        <Division />
+        <Phone />
+        <Fax />
+        <Address1 />
+        <Address2 />
+        <City />
+        <State>
+          <StateCode />
+          <LocalName />
+          <CountryCode />
+        </State>
+        <ZipCode />
+        <Location />
+        <BuildingName />
+        <UserName />
+        <Country>
+          <CountryCode />
+          <Market />
+          <EnglishName />
+          <LocalName />
+          <ProductMarket />
+          <States />
+        </Country>
+        <IsTermsAndPrivacyChecked>false</IsTermsAndPrivacyChecked>
+        <IsAgreeToContact>false</IsAgreeToContact>
+        <IsContactByEmail>false</IsContactByEmail>
+        <IsContactByPhone>false</IsContactByPhone>
+        <IsShareableCustomer>false</IsShareableCustomer>
+      </Customer>
+      <DesignedBy>
+        <PersonId>bd0f93e0-4597-4b9c-a9ed-171cf042fc27</PersonId>
+        <FirstName />
+        <ModuleName />
+        <LastName />
+        <IsBlank>true</IsBlank>
+        <Title />
+        <EmailAddress />
+        <Company />
+        <Division />
+        <Phone />
+        <Fax />
+        <Address1 />
+        <Address2 />
+        <City />
+        <State>
+          <StateCode />
+          <LocalName />
+          <CountryCode />
+        </State>
+        <ZipCode />
+        <Location />
+        <BuildingName />
+        <UserName />
+        <Country>
+          <CountryCode />
+          <Market />
+          <EnglishName />
+          <LocalName />
+          <ProductMarket />
+          <States />
+        </Country>
+        <IsTermsAndPrivacyChecked>false</IsTermsAndPrivacyChecked>
+        <IsAgreeToContact>false</IsAgreeToContact>
+        <IsContactByEmail>false</IsContactByEmail>
+        <IsContactByPhone>false</IsContactByPhone>
+        <IsShareableCustomer>false</IsShareableCustomer>
+      </DesignedBy>
+      <User>
+        <PersonId>6a1233c1-9e0b-4359-84a6-1f0d45a44aa2</PersonId>
+        <FirstName>David</FirstName>
+        <ModuleName />
+        <LastName>Hu</LastName>
+        <IsBlank>true</IsBlank>
+        <Title />
+        <EmailAddress />
+        <Company>Aztec Frameworks </Company>
+        <Division>Senior Design project</Division>
+        <Phone>6504555458</Phone>
+        <Fax />
+        <Address1>917 South Delaware Street</Address1>
+        <Address2 />
+        <City>San Mateo</City>
+        <State>
+          <StateCode>US-CA</StateCode>
+          <LocalName>California</LocalName>
+          <CountryCode />
+        </State>
+        <ZipCode>94402</ZipCode>
+        <Location />
+        <BuildingName />
+        <UserName />
+        <Country>
+          <CountryCode>US</CountryCode>
+          <Market>North America</Market>
+          <EnglishName />
+          <LocalName />
+          <ProductMarket />
+          <States />
+        </Country>
+        <IsTermsAndPrivacyChecked>true</IsTermsAndPrivacyChecked>
+        <IsAgreeToContact>false</IsAgreeToContact>
+        <IsContactByEmail>false</IsContactByEmail>
+        <IsContactByPhone>false</IsContactByPhone>
+        <UserReload>false</UserReload>
+        <EnergyUsage>0.17</EnergyUsage>
+        <RegistrationEmailAddress>huhaolan0729@gmail.com</RegistrationEmailAddress>
+        <DisplayEmailAddress />
+        <PricingScheme>
+          <Name>Default</Name>
+          <Bushings />
+          <Pulleys />
+          <Belts />
+          <Settings />
+        </PricingScheme>
+        <IsDefaultUser>true</IsDefaultUser>
+        <IsCurrentUser>true</IsCurrentUser>
+        <Logo>Unitta</Logo>
+        <ProductMarket>NorthAmerica</ProductMarket>
+        <ProxyInfo>
+          <DontShowAgain>false</DontShowAgain>
+          <UseProxy>false</UseProxy>
+          <UseInternet>true</UseInternet>
+          <ProxyHost />
+          <ProxyPort>0</ProxyPort>
+          <ProxyUser />
+          <ProxyDomain />
+          <ProxyPassword />
+          <RememberProxy>false</RememberProxy>
+          <MaxTimeout>500</MaxTimeout>
+        </ProxyInfo>
+        <RecentFiles />
+        <Customers />
+        <UserRights />
+        <UserLevel>Standard</UserLevel>
+      </User>
+      <LastEdited>2026-04-27T23:09:56.3008751-07:00</LastEdited>
+      <LastEditedBy>
+        <PersonId>6a1233c1-9e0b-4359-84a6-1f0d45a44aa2</PersonId>
+        <FirstName>David</FirstName>
+        <ModuleName />
+        <LastName>Hu</LastName>
+        <IsBlank>true</IsBlank>
+        <Title />
+        <EmailAddress />
+        <Company>Aztec Frameworks </Company>
+        <Division>Senior Design project</Division>
+        <Phone>6504555458</Phone>
+        <Fax />
+        <Address1>917 South Delaware Street</Address1>
+        <Address2 />
+        <City>San Mateo</City>
+        <State>
+          <StateCode>US-CA</StateCode>
+          <LocalName>California</LocalName>
+          <CountryCode />
+        </State>
+        <ZipCode>94402</ZipCode>
+        <Location />
+        <BuildingName />
+        <UserName />
+        <Country>
+          <CountryCode>US</CountryCode>
+          <Market>North America</Market>
+          <EnglishName />
+          <LocalName />
+          <ProductMarket />
+          <States />
+        </Country>
+        <IsTermsAndPrivacyChecked>true</IsTermsAndPrivacyChecked>
+        <IsAgreeToContact>false</IsAgreeToContact>
+        <IsContactByEmail>false</IsContactByEmail>
+        <IsContactByPhone>false</IsContactByPhone>
+        <UserReload>false</UserReload>
+        <EnergyUsage>0.17</EnergyUsage>
+        <RegistrationEmailAddress>huhaolan0729@gmail.com</RegistrationEmailAddress>
+        <DisplayEmailAddress />
+        <PricingScheme>
+          <Name>Default</Name>
+          <Bushings />
+          <Pulleys />
+          <Belts />
+          <Settings />
+        </PricingScheme>
+        <IsDefaultUser>true</IsDefaultUser>
+        <IsCurrentUser>true</IsCurrentUser>
+        <Logo>Unitta</Logo>
+        <ProductMarket>NorthAmerica</ProductMarket>
+        <ProxyInfo>
+          <DontShowAgain>false</DontShowAgain>
+          <UseProxy>false</UseProxy>
+          <UseInternet>true</UseInternet>
+          <ProxyHost />
+          <ProxyPort>0</ProxyPort>
+          <ProxyUser />
+          <ProxyDomain />
+          <ProxyPassword />
+          <RememberProxy>false</RememberProxy>
+          <MaxTimeout>500</MaxTimeout>
+        </ProxyInfo>
+        <RecentFiles />
+        <Customers />
+        <UserRights />
+        <UserLevel>Standard</UserLevel>
+      </LastEditedBy>
+      <FacilityId>-1</FacilityId>
+    </Design>
+    <Design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <DatabaseId>-1</DatabaseId>
+      <ID>50650dc0-2b4a-435b-a104-3d5cb0f0eac2</ID>
+      <Name>Full compression</Name>
+      <Description />
+      <ModuleID>C0525104-8CFE-4718-A6FC-9A7B27220991</ModuleID>
+      <Settings type="DesignIQ.Model.DesignIQSettings, DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+        <DesignIQSettings>
+          <CultureName>en-US</CultureName>
+          <NumberFormat>
+            <CurrencyDecimalDigits>2</CurrencyDecimalDigits>
+            <CurrencyDecimalSeparator>.</CurrencyDecimalSeparator>
+            <CurrencyGroupSizes>
+              <int>3</int>
+            </CurrencyGroupSizes>
+            <NumberGroupSizes>
+              <int>3</int>
+            </NumberGroupSizes>
+            <PercentGroupSizes>
+              <int>3</int>
+            </PercentGroupSizes>
+            <CurrencyGroupSeparator>,</CurrencyGroupSeparator>
+            <CurrencySymbol>??</CurrencySymbol>
+            <NaNSymbol>NaN</NaNSymbol>
+            <CurrencyNegativePattern>1</CurrencyNegativePattern>
+            <NumberNegativePattern>1</NumberNegativePattern>
+            <PercentPositivePattern>1</PercentPositivePattern>
+            <PercentNegativePattern>1</PercentNegativePattern>
+            <NegativeInfinitySymbol>-???</NegativeInfinitySymbol>
+            <NegativeSign>-</NegativeSign>
+            <NumberDecimalDigits>3</NumberDecimalDigits>
+            <NumberDecimalSeparator>.</NumberDecimalSeparator>
+            <NumberGroupSeparator>,</NumberGroupSeparator>
+            <CurrencyPositivePattern>0</CurrencyPositivePattern>
+            <PositiveInfinitySymbol>???</PositiveInfinitySymbol>
+            <PositiveSign>+</PositiveSign>
+            <PercentDecimalDigits>3</PercentDecimalDigits>
+            <PercentDecimalSeparator>.</PercentDecimalSeparator>
+            <PercentGroupSeparator>,</PercentGroupSeparator>
+            <PercentSymbol>%</PercentSymbol>
+            <PerMilleSymbol>???</PerMilleSymbol>
+            <NativeDigits>
+              <string>0</string>
+              <string>1</string>
+              <string>2</string>
+              <string>3</string>
+              <string>4</string>
+              <string>5</string>
+              <string>6</string>
+              <string>7</string>
+              <string>8</string>
+              <string>9</string>
+            </NativeDigits>
+            <DigitSubstitution>None</DigitSubstitution>
+          </NumberFormat>
+          <DocumentPageSizeUnitToHundredthsOfInchRelation>1</DocumentPageSizeUnitToHundredthsOfInchRelation>
+          <DocumentPageMargins>
+            <Bottom>50</Bottom>
+            <Left>50</Left>
+            <Right>50</Right>
+            <Top>50</Top>
+          </DocumentPageMargins>
+          <DocumentPageSize>
+            <Width>850</Width>
+            <Height>1100</Height>
+          </DocumentPageSize>
+          <DocumentPageIsLandscape>false</DocumentPageIsLandscape>
+          <CurrentUnitScheme type="Common.DesignIQ.Units.UnitScheme, Common.DesignIQ.Windows, Version=0.0.0.1, Culture=neutral, PublicKeyToken=null">
+            <UnitScheme>
+              <IsMetric>true</IsMetric>
+              <Name>Metric</Name>
+              <UnitsReadOnly>true</UnitsReadOnly>
+              <CurrentAngleUnits>deg</CurrentAngleUnits>
+              <AnglePrecisionDec>2</AnglePrecisionDec>
+              <CurrentDensityUnits>gpercubiccm</CurrentDensityUnits>
+              <DensityPrecisionDec>1</DensityPrecisionDec>
+              <CurrentForceUnits>N</CurrentForceUnits>
+              <ForcePrecisionDec>2</ForcePrecisionDec>
+              <CurrentLengthUnits>mm</CurrentLengthUnits>
+              <LengthPrecisionDec>2</LengthPrecisionDec>
+              <CurrentPowerUnits>kw</CurrentPowerUnits>
+              <PowerPrecisionDec>2</PowerPrecisionDec>
+              <CurrentTemperatureUnits>C</CurrentTemperatureUnits>
+              <TemperaturePrecisionDec>1</TemperaturePrecisionDec>
+              <CurrentTorqueUnits>Nm</CurrentTorqueUnits>
+              <TorquePrecisionDec>1</TorquePrecisionDec>
+              <CurrentSpeedUnits>MetersPerSec</CurrentSpeedUnits>
+              <SpeedPrecisionDec>1</SpeedPrecisionDec>
+            </UnitScheme>
+          </CurrentUnitScheme>
+          <ListItems />
+          <ModuleDisplayName>Design IQ</ModuleDisplayName>
+          <ModuleId>C0525104-8CFE-4718-A6FC-9A7B27220991</ModuleId>
+          <ModuleVersion>6.70.0.0</ModuleVersion>
+          <DiagnosticMode>false</DiagnosticMode>
+          <BackgroundColor>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </BackgroundColor>
+          <IsInitialized>false</IsInitialized>
+          <SnapGridOn>false</SnapGridOn>
+          <SnapGrid>10</SnapGrid>
+          <SnapDiaMode>NoSnap</SnapDiaMode>
+          <SnapDiameter>10</SnapDiameter>
+          <SnapIdlerAngleOn>false</SnapIdlerAngleOn>
+          <SnapIdlerAngle>10</SnapIdlerAngle>
+          <SMode>RestrictedMode</SMode>
+          <ZMode>MousePoint</ZMode>
+          <SmoothingMode>AntiAlias</SmoothingMode>
+          <ShowOutsideDia>true</ShowOutsideDia>
+          <DirectionOfNumbering>CounterClockwise</DirectionOfNumbering>
+          <StandardInstallation>false</StandardInstallation>
+          <ShowDisplayHubloadToArm>false</ShowDisplayHubloadToArm>
+        </DesignIQSettings>
+      </Settings>
+      <DesignProblem type="Common.DesignIQ.Model.DesignIqApplicationData, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+        <DesignIqApplicationData>
+          <DriveData>
+            <BeltBase type="Common.Models.Base.BeltBase, Common.Models, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+              <BeltBase>
+                <Name>Custom</Name>
+                <ProductLine />
+                <XSect />
+                <PartNumber />
+                <BeltModulus>0</BeltModulus>
+                <CordDiameter>0</CordDiameter>
+                <PDOD>0</PDOD>
+                <CTE>0</CTE>
+                <Thickness>0</Thickness>
+                <TopWidth>0</TopWidth>
+                <VAngle>0</VAngle>
+                <BackWear>0</BackWear>
+                <FrontWear>0</FrontWear>
+                <LinearDensity>0</LinearDensity>
+                <PitchLength>0</PitchLength>
+                <ConversionConstants>
+                  <Std_DDOD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Std_DDOD>
+                  <Std_DDPD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Std_DDPD>
+                  <Synch_PDOD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Synch_PDOD>
+                  <BeltPitch Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </BeltPitch>
+                  <A_PD_Adj Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </A_PD_Adj>
+                  <A_OD_Adj Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </A_OD_Adj>
+                  <Adj_At Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Adj_At>
+                  <Abs_Std_DDOD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Abs_Std_DDOD>
+                  <Abs_Std_DDPD Value="0" Units="inch">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                    <UnitsTypeStr>inch</UnitsTypeStr>
+                  </Abs_Std_DDPD>
+                </ConversionConstants>
+                <ToothStiffness>0</ToothStiffness>
+                <OriginalPitch>0</OriginalPitch>
+                <PitchModifier>0</PitchModifier>
+                <CordsPerInch>0</CordsPerInch>
+              </BeltBase>
+            </BeltBase>
+            <Pulleys>
+              <Pulley type="Common.DesignIQ.Model.Engine.Pulley, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                <Pulley>
+                  <index>0</index>
+                  <Id>63da198c-5f58-4f53-b27c-31e939bc319d</Id>
+                  <Name />
+                  <Material />
+                  <Coating />
+                  <Center>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <IsDirty>false</IsDirty>
+                  </Center>
+                  <Diameter Type="outside">
+                    <Dia Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Dia>
+                    <Teeth>0</Teeth>
+                  </Diameter>
+                  <DiameterValue>0</DiameterValue>
+                  <DiameterType>outside</DiameterType>
+                  <ConversionConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                  </ConversionConstants>
+                  <WrapType>InsideGrooved</WrapType>
+                  <WrapTypeString>InsideGrooved</WrapTypeString>
+                  <IO>Inside</IO>
+                  <Grooved>true</Grooved>
+                  <CoefficientOfFriction>0</CoefficientOfFriction>
+                  <SheaveAngle>0</SheaveAngle>
+                  <WrapAngle>0</WrapAngle>
+                  <ShaftDiameter>0</ShaftDiameter>
+                  <Warnings />
+                  <RefDia Value="0" Units="mm">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">mm</UnitsType>
+                    <UnitsTypeStr>mm</UnitsTypeStr>
+                  </RefDia>
+                  <Teeth>32</Teeth>
+                  <RefDiaType>Grooves</RefDiaType>
+                  <GeometryUnitTypes>inch</GeometryUnitTypes>
+                  <PulleyClass>SYN</PulleyClass>
+                  <PartNo />
+                  <IdlerNo>0</IdlerNo>
+                  <ShaftDiaUnits>mm</ShaftDiaUnits>
+                  <Flanged>false</Flanged>
+                  <FlangeOD>0</FlangeOD>
+                  <AllowableTR>0</AllowableTR>
+                  <Label />
+                  <IsAttached>true</IsAttached>
+                  <HighestTension>0</HighestTension>
+                  <PulleyNum>0</PulleyNum>
+                  <ProductNumber />
+                  <Bushing />
+                  <Width>0</Width>
+                  <PDtoOD>-1.840000033378601</PDtoOD>
+                  <PDtoND>0</PDtoND>
+                  <PDtoED>0</PDtoED>
+                  <PulleyType>0</PulleyType>
+                  <PulleyID>1</PulleyID>
+                  <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                  <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                  <NDtoED>0</NDtoED>
+                  <NDtoPD>-0</NDtoPD>
+                  <BeltPitch>11</BeltPitch>
+                  <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  <DiameterConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                    <ID>0</ID>
+                    <Description />
+                    <PDtoOD>-1.840000033378601</PDtoOD>
+                    <PDtoND>0</PDtoND>
+                    <PDtoED>0</PDtoED>
+                    <GrooveAngle>0</GrooveAngle>
+                    <GrooveTopWidth>0</GrooveTopWidth>
+                    <PinDiameter>0</PinDiameter>
+                    <NDtoED>0</NDtoED>
+                    <NDtoPD>-0</NDtoPD>
+                    <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                    <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                    <BeltPitchValue>11</BeltPitchValue>
+                    <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  </DiameterConstants>
+                  <WarningLevel>None</WarningLevel>
+                </Pulley>
+              </Pulley>
+              <Pulley type="Common.DesignIQ.Model.Engine.Pulley, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                <Pulley>
+                  <index>0</index>
+                  <Id>00bcc3ce-4699-49a7-9646-933f78fa4e0f</Id>
+                  <Name />
+                  <Material />
+                  <Coating />
+                  <Center>
+                    <X>85.00000000000001</X>
+                    <Y>7.105427357601002E-15</Y>
+                    <IsDirty>false</IsDirty>
+                  </Center>
+                  <Diameter Type="outside">
+                    <Dia Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Dia>
+                    <Teeth>0</Teeth>
+                  </Diameter>
+                  <DiameterValue>0</DiameterValue>
+                  <DiameterType>outside</DiameterType>
+                  <ConversionConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                  </ConversionConstants>
+                  <WrapType>BacksideFlat</WrapType>
+                  <WrapTypeString>BacksideFlat</WrapTypeString>
+                  <IO>Outside</IO>
+                  <Grooved>false</Grooved>
+                  <CoefficientOfFriction>0</CoefficientOfFriction>
+                  <SheaveAngle>0</SheaveAngle>
+                  <WrapAngle>0</WrapAngle>
+                  <ShaftDiameter>0</ShaftDiameter>
+                  <Warnings />
+                  <RefDia Value="52" Units="mm">
+                    <UnitsValue>52</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">mm</UnitsType>
+                    <UnitsTypeStr>mm</UnitsTypeStr>
+                  </RefDia>
+                  <Teeth>16</Teeth>
+                  <RefDiaType>OD</RefDiaType>
+                  <GeometryUnitTypes>inch</GeometryUnitTypes>
+                  <PulleyClass>SYN</PulleyClass>
+                  <PartNo />
+                  <IdlerNo>1</IdlerNo>
+                  <ShaftDiaUnits>mm</ShaftDiaUnits>
+                  <Flanged>false</Flanged>
+                  <FlangeOD>0</FlangeOD>
+                  <AllowableTR>0</AllowableTR>
+                  <Label />
+                  <IsAttached>true</IsAttached>
+                  <HighestTension>0</HighestTension>
+                  <PulleyNum>0</PulleyNum>
+                  <ProductNumber />
+                  <Bushing />
+                  <Width>0</Width>
+                  <PDtoOD>-1.840000033378601</PDtoOD>
+                  <PDtoND>0</PDtoND>
+                  <PDtoED>0</PDtoED>
+                  <PulleyType>0</PulleyType>
+                  <PulleyID>1</PulleyID>
+                  <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                  <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                  <NDtoED>0</NDtoED>
+                  <NDtoPD>-0</NDtoPD>
+                  <BeltPitch>11</BeltPitch>
+                  <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  <DiameterConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                    <ID>0</ID>
+                    <Description />
+                    <PDtoOD>-1.840000033378601</PDtoOD>
+                    <PDtoND>0</PDtoND>
+                    <PDtoED>0</PDtoED>
+                    <GrooveAngle>0</GrooveAngle>
+                    <GrooveTopWidth>0</GrooveTopWidth>
+                    <PinDiameter>0</PinDiameter>
+                    <NDtoED>0</NDtoED>
+                    <NDtoPD>-0</NDtoPD>
+                    <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                    <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                    <BeltPitchValue>11</BeltPitchValue>
+                    <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  </DiameterConstants>
+                  <WarningLevel>None</WarningLevel>
+                </Pulley>
+              </Pulley>
+              <Pulley type="Common.DesignIQ.Model.Engine.Pulley, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                <Pulley>
+                  <index>0</index>
+                  <Id>8fee09fd-4625-4f86-97cb-a2a28998f0b9</Id>
+                  <Name />
+                  <Material />
+                  <Coating />
+                  <Center>
+                    <X>-439.46</X>
+                    <Y>207.21</Y>
+                    <IsDirty>false</IsDirty>
+                  </Center>
+                  <Diameter Type="outside">
+                    <Dia Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Dia>
+                    <Teeth>0</Teeth>
+                  </Diameter>
+                  <DiameterValue>0</DiameterValue>
+                  <DiameterType>outside</DiameterType>
+                  <ConversionConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                  </ConversionConstants>
+                  <WrapType>InsideGrooved</WrapType>
+                  <WrapTypeString>InsideGrooved</WrapTypeString>
+                  <IO>Inside</IO>
+                  <Grooved>true</Grooved>
+                  <CoefficientOfFriction>0</CoefficientOfFriction>
+                  <SheaveAngle>0</SheaveAngle>
+                  <WrapAngle>0</WrapAngle>
+                  <ShaftDiameter>0</ShaftDiameter>
+                  <Warnings />
+                  <RefDia Value="0" Units="mm">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">mm</UnitsType>
+                    <UnitsTypeStr>mm</UnitsTypeStr>
+                  </RefDia>
+                  <Teeth>32</Teeth>
+                  <RefDiaType>Grooves</RefDiaType>
+                  <GeometryUnitTypes>inch</GeometryUnitTypes>
+                  <PulleyClass>SYN</PulleyClass>
+                  <PartNo />
+                  <IdlerNo>0</IdlerNo>
+                  <ShaftDiaUnits>mm</ShaftDiaUnits>
+                  <Flanged>false</Flanged>
+                  <FlangeOD>0</FlangeOD>
+                  <AllowableTR>0</AllowableTR>
+                  <Label />
+                  <IsAttached>true</IsAttached>
+                  <HighestTension>0</HighestTension>
+                  <PulleyNum>0</PulleyNum>
+                  <ProductNumber />
+                  <Bushing />
+                  <Width>0</Width>
+                  <PDtoOD>-1.840000033378601</PDtoOD>
+                  <PDtoND>0</PDtoND>
+                  <PDtoED>0</PDtoED>
+                  <PulleyType>0</PulleyType>
+                  <PulleyID>1</PulleyID>
+                  <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                  <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                  <NDtoED>0</NDtoED>
+                  <NDtoPD>-0</NDtoPD>
+                  <BeltPitch>11</BeltPitch>
+                  <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  <DiameterConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                    <ID>0</ID>
+                    <Description />
+                    <PDtoOD>-1.840000033378601</PDtoOD>
+                    <PDtoND>0</PDtoND>
+                    <PDtoED>0</PDtoED>
+                    <GrooveAngle>0</GrooveAngle>
+                    <GrooveTopWidth>0</GrooveTopWidth>
+                    <PinDiameter>0</PinDiameter>
+                    <NDtoED>0</NDtoED>
+                    <NDtoPD>-0</NDtoPD>
+                    <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                    <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                    <BeltPitchValue>11</BeltPitchValue>
+                    <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  </DiameterConstants>
+                  <WarningLevel>None</WarningLevel>
+                </Pulley>
+              </Pulley>
+              <Pulley type="Common.DesignIQ.Model.Engine.Pulley, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                <Pulley>
+                  <index>0</index>
+                  <Id>fb3633f9-fb1a-4a20-a2f7-e48c5e9dcbb9</Id>
+                  <Name />
+                  <Material />
+                  <Coating />
+                  <Center>
+                    <X>64.86</X>
+                    <Y>146.23</Y>
+                    <IsDirty>false</IsDirty>
+                  </Center>
+                  <Diameter Type="outside">
+                    <Dia Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Dia>
+                    <Teeth>0</Teeth>
+                  </Diameter>
+                  <DiameterValue>0</DiameterValue>
+                  <DiameterType>outside</DiameterType>
+                  <ConversionConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                  </ConversionConstants>
+                  <WrapType>InsideGrooved</WrapType>
+                  <WrapTypeString>InsideGrooved</WrapTypeString>
+                  <IO>Inside</IO>
+                  <Grooved>true</Grooved>
+                  <CoefficientOfFriction>0</CoefficientOfFriction>
+                  <SheaveAngle>0</SheaveAngle>
+                  <WrapAngle>0</WrapAngle>
+                  <ShaftDiameter>0</ShaftDiameter>
+                  <Warnings />
+                  <RefDia Value="0" Units="mm">
+                    <UnitsValue>0</UnitsValue>
+                    <UnitsType xsi:type="LengthUnitType">mm</UnitsType>
+                    <UnitsTypeStr>mm</UnitsTypeStr>
+                  </RefDia>
+                  <Teeth>22</Teeth>
+                  <RefDiaType>Grooves</RefDiaType>
+                  <GeometryUnitTypes>inch</GeometryUnitTypes>
+                  <PulleyClass>SYN</PulleyClass>
+                  <PartNo />
+                  <IdlerNo>0</IdlerNo>
+                  <ShaftDiaUnits>mm</ShaftDiaUnits>
+                  <Flanged>false</Flanged>
+                  <FlangeOD>0</FlangeOD>
+                  <AllowableTR>0</AllowableTR>
+                  <Label />
+                  <IsAttached>true</IsAttached>
+                  <HighestTension>0</HighestTension>
+                  <PulleyNum>0</PulleyNum>
+                  <ProductNumber />
+                  <Bushing />
+                  <Width>0</Width>
+                  <PDtoOD>-1.840000033378601</PDtoOD>
+                  <PDtoND>0</PDtoND>
+                  <PDtoED>0</PDtoED>
+                  <PulleyType>0</PulleyType>
+                  <PulleyID>1</PulleyID>
+                  <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                  <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                  <NDtoED>0</NDtoED>
+                  <NDtoPD>-0</NDtoPD>
+                  <BeltPitch>11</BeltPitch>
+                  <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  <DiameterConstants>
+                    <Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDOD>
+                    <Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Std_DDPD>
+                    <Synch_PDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Synch_PDOD>
+                    <BeltPitch Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </BeltPitch>
+                    <A_PD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_PD_Adj>
+                    <A_OD_Adj Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </A_OD_Adj>
+                    <Adj_At Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Adj_At>
+                    <Abs_Std_DDOD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDOD>
+                    <Abs_Std_DDPD Value="0" Units="inch">
+                      <UnitsValue>0</UnitsValue>
+                      <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                      <UnitsTypeStr>inch</UnitsTypeStr>
+                    </Abs_Std_DDPD>
+                    <ID>0</ID>
+                    <Description />
+                    <PDtoOD>-1.840000033378601</PDtoOD>
+                    <PDtoND>0</PDtoND>
+                    <PDtoED>0</PDtoED>
+                    <GrooveAngle>0</GrooveAngle>
+                    <GrooveTopWidth>0</GrooveTopWidth>
+                    <PinDiameter>0</PinDiameter>
+                    <NDtoED>0</NDtoED>
+                    <NDtoPD>-0</NDtoPD>
+                    <PLDInsideFlat>12.15999984741211</PLDInsideFlat>
+                    <PLDBackFlat>2.9800000190734863</PLDBackFlat>
+                    <BeltPitchValue>11</BeltPitchValue>
+                    <BeltDiaTypeIn>Grooves</BeltDiaTypeIn>
+                  </DiameterConstants>
+                  <WarningLevel>None</WarningLevel>
+                </Pulley>
+              </Pulley>
+            </Pulleys>
+            <Idlers />
+            <Conditions />
+            <Notes />
+            <Spans>
+              <Vector2D>
+                <Tail>
+                  <X>-32.315721204023056</X>
+                  <Y>-45.76263921113936</Y>
+                  <IsDirty>false</IsDirty>
+                </Tail>
+                <Tip>
+                  <X>-142.15617169384973</X>
+                  <Y>31.802235458272463</Y>
+                  <IsDirty>false</IsDirty>
+                </Tip>
+                <Length>134.4664803818767</Length>
+                <Angle>2.52674476554831</Angle>
+                <IsDirty>false</IsDirty>
+              </Vector2D>
+              <Vector2D>
+                <Tail>
+                  <X>-148.09436312396556</X>
+                  <Y>34.98485440745546</Y>
+                  <IsDirty>false</IsDirty>
+                </Tail>
+                <Tip>
+                  <X>-454.8441363870734</X>
+                  <Y>153.66142418563095</Y>
+                  <IsDirty>false</IsDirty>
+                </Tip>
+                <Length>328.9066001333543</Length>
+                <Angle>2.7724440822643737</Angle>
+                <IsDirty>false</IsDirty>
+              </Vector2D>
+              <Vector2D>
+                <Tail>
+                  <X>-433.06178880148957</X>
+                  <Y>261.9105865874807</Y>
+                  <IsDirty>false</IsDirty>
+                </Tail>
+                <Tip>
+                  <X>-50.01345492831331</X>
+                  <Y>251.183900969424</Y>
+                  <IsDirty>false</IsDirty>
+                </Tip>
+                <Length>383.19849669246474</Length>
+                <Angle>6.255189145725987</Angle>
+                <IsDirty>false</IsDirty>
+              </Vector2D>
+              <Vector2D>
+                <Tail>
+                  <X>-14.481722200198917</X>
+                  <Y>224.648458529206</Y>
+                  <IsDirty>false</IsDirty>
+                </Tail>
+                <Tip>
+                  <X>53.25073153031313</X>
+                  <Y>17.403579401708328</Y>
+                  <IsDirty>false</IsDirty>
+                </Tip>
+                <Length>218.0323948704116</Length>
+                <Angle>5.028269100219864</Angle>
+                <IsDirty>false</IsDirty>
+              </Vector2D>
+            </Spans>
+            <Frames>
+              <Frame>
+                <FrameVector>
+                  <Tail>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <IsDirty>false</IsDirty>
+                  </Tail>
+                  <Tip>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <IsDirty>false</IsDirty>
+                  </Tip>
+                  <Length>0</Length>
+                  <Angle>0</Angle>
+                  <IsDirty>false</IsDirty>
+                </FrameVector>
+                <ParentFrame>0</ParentFrame>
+              </Frame>
+              <Frame xsi:type="PivotIdler">
+                <FrameVector>
+                  <Tail>
+                    <X>-53.51</X>
+                    <Y>-42.53</Y>
+                    <IsDirty>false</IsDirty>
+                  </Tail>
+                  <Tip>
+                    <X>-75.25157432854269</X>
+                    <Y>39.64240379663025</Y>
+                    <IsDirty>false</IsDirty>
+                  </Tip>
+                  <Length>85</Length>
+                  <Angle>1.8294541219404559</Angle>
+                  <IsDirty>false</IsDirty>
+                </FrameVector>
+                <ParentFrame>0</ParentFrame>
+                <CurrentPosition>0.2799434162193095</CurrentPosition>
+                <MaxPosition>0.8443902921148567</MaxPosition>
+                <MinPosition>0</MinPosition>
+                <IdlerExtremes type="Common.DesignIQ.Engine.IdlerInstTUExtremes, Common.DesignIQ, Version=6.70.0.0, Culture=neutral, PublicKeyToken=null">
+                  <IdlerInstTUExtremes>
+                    <MinLengthPosition>0.8359463891937081</MinLengthPosition>
+                    <MaxLengthPosition>0</MaxLengthPosition>
+                    <MaxLength>1534.0153077954035</MaxLength>
+                    <MinLength>1478.1377127982767</MinLength>
+                    <AllowPastRecommendedExtents>true</AllowPastRecommendedExtents>
+                    <IsCalculated>true</IsCalculated>
+                    <InstallPosition>0.2799434162193095</InstallPosition>
+                    <TakeUpPosition>0.19025011942230952</TakeUpPosition>
+                    <InstallLength>1506.9999965153695</InstallLength>
+                    <TakeUpLength>1514.5349964979464</TakeUpLength>
+                    <MinInstallPosition>0.8359461898885578</MinInstallPosition>
+                    <MaxTakeUpPosition>0.06801547351250944</MaxTakeUpPosition>
+                    <MinInstallLength>1478.1377127982767</MinInstallLength>
+                    <MaxTakeupLength>1526.3833908411978</MaxTakeupLength>
+                  </IdlerInstTUExtremes>
+                </IdlerExtremes>
+                <SpringLoaded>false</SpringLoaded>
+                <IsFixed>false</IsFixed>
+              </Frame>
+            </Frames>
+            <Warnings />
+            <Customer>
+              <PersonId>1f773ba3-0f09-44c1-b05e-94f9adb3cba4</PersonId>
+              <FirstName />
+              <ModuleName />
+              <LastName />
+              <IsBlank>true</IsBlank>
+              <Title />
+              <EmailAddress />
+              <Company />
+              <Division />
+              <Phone />
+              <Fax />
+              <Address1 />
+              <Address2 />
+              <City />
+              <State>
+                <StateCode />
+                <LocalName />
+                <CountryCode />
+              </State>
+              <ZipCode />
+              <Location />
+              <BuildingName />
+              <UserName />
+              <Country>
+                <CountryCode />
+                <Market />
+                <EnglishName />
+                <LocalName />
+                <ProductMarket />
+                <States />
+              </Country>
+              <IsTermsAndPrivacyChecked>false</IsTermsAndPrivacyChecked>
+              <IsAgreeToContact>false</IsAgreeToContact>
+              <IsContactByEmail>false</IsContactByEmail>
+              <IsContactByPhone>false</IsContactByPhone>
+              <IsShareableCustomer>false</IsShareableCustomer>
+            </Customer>
+            <DriveBelt>
+              <BeltID>PCC_11M_CDX</BeltID>
+              <BeltFamily>Bicycle Belt Drive</BeltFamily>
+              <BeltSection>11M CDX</BeltSection>
+              <Width_Units>WidthUnitsMillimeters</Width_Units>
+              <BeltWidth>0</BeltWidth>
+              <WidthInput>false</WidthInput>
+            </DriveBelt>
+            <DefaultBeltConstants>
+              <Std_DDOD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Std_DDOD>
+              <Std_DDPD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Std_DDPD>
+              <Synch_PDOD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Synch_PDOD>
+              <BeltPitch Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </BeltPitch>
+              <A_PD_Adj Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </A_PD_Adj>
+              <A_OD_Adj Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </A_OD_Adj>
+              <Adj_At Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Adj_At>
+              <Abs_Std_DDOD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Abs_Std_DDOD>
+              <Abs_Std_DDPD Value="0" Units="inch">
+                <UnitsValue>0</UnitsValue>
+                <UnitsType xsi:type="LengthUnitType">inch</UnitsType>
+                <UnitsTypeStr>inch</UnitsTypeStr>
+              </Abs_Std_DDPD>
+              <ID>0</ID>
+              <Description />
+              <PDtoOD>0</PDtoOD>
+              <PDtoND>0</PDtoND>
+              <PDtoED>0</PDtoED>
+              <GrooveAngle>0</GrooveAngle>
+              <GrooveTopWidth>0</GrooveTopWidth>
+              <PinDiameter>0</PinDiameter>
+              <NDtoED>0</NDtoED>
+              <NDtoPD>0</NDtoPD>
+              <PLDInsideFlat>0</PLDInsideFlat>
+              <PLDBackFlat>0</PLDBackFlat>
+              <BeltPitchValue>0</BeltPitchValue>
+              <BeltDiaTypeIn>PD</BeltDiaTypeIn>
+            </DefaultBeltConstants>
+            <PermissionLevel>1</PermissionLevel>
+            <DriveTension>
+              <DesiredForceOK>false</DesiredForceOK>
+              <DesiredDeflectionOK>false</DesiredDeflectionOK>
+              <NoBeltsToDeflect>0</NoBeltsToDeflect>
+              <Nominal>0</Nominal>
+              <NewMax>0</NewMax>
+              <NewMin>0</NewMin>
+              <OldMax>0</OldMax>
+              <OldMin>0</OldMin>
+              <TensionMethod>ForceDeflect</TensionMethod>
+              <SpanNo>0</SpanNo>
+              <TensionPerBelt>false</TensionPerBelt>
+              <DefaultsCalculated>false</DefaultsCalculated>
+              <UseDefaultValues>true</UseDefaultValues>
+            </DriveTension>
+            <ActiveIdler>1</ActiveIdler>
+            <DirOfNumbering>Clockwise</DirOfNumbering>
+            <DirOfRotation>CW</DirOfRotation>
+            <CurrentPulley>1</CurrentPulley>
+            <ID />
+            <Description />
+            <CurrentSpan>-1</CurrentSpan>
+            <DriveWarnings />
+            <PulleyWarnings />
+            <AllWarnings />
+          </DriveData>
+        </DesignIqApplicationData>
+      </DesignProblem>
+      <Vehicle>
+        <VehicleId />
+        <Year>2026</Year>
+        <Manufacturer />
+        <Model />
+        <Engine />
+        <EngineCCs>0</EngineCCs>
+        <Acceleration>1344</Acceleration>
+        <MaxPeakShockLoad>1196</MaxPeakShockLoad>
+        <Mass>0</Mass>
+        <RidersMass>0</RidersMass>
+        <FrontWheelDiameter>0</FrontWheelDiameter>
+        <BackWheelDiameter>0</BackWheelDiameter>
+        <FrontWheelMMOI>0.68</FrontWheelMMOI>
+        <BackWheelMMOI>0.89</BackWheelMMOI>
+        <SecondaryDR>2.5</SecondaryDR>
+        <FrontWheelMass>0</FrontWheelMass>
+        <BackWheelMass>0</BackWheelMass>
+      </Vehicle>
+      <Customer>
+        <PersonId>d078c2a9-e395-49b9-bb9d-03eb1ce3e4b5</PersonId>
+        <FirstName />
+        <ModuleName />
+        <LastName />
+        <IsBlank>true</IsBlank>
+        <Title />
+        <EmailAddress />
+        <Company />
+        <Division />
+        <Phone />
+        <Fax />
+        <Address1 />
+        <Address2 />
+        <City />
+        <State>
+          <StateCode />
+          <LocalName />
+          <CountryCode />
+        </State>
+        <ZipCode />
+        <Location />
+        <BuildingName />
+        <UserName />
+        <Country>
+          <CountryCode />
+          <Market />
+          <EnglishName />
+          <LocalName />
+          <ProductMarket />
+          <States />
+        </Country>
+        <IsTermsAndPrivacyChecked>false</IsTermsAndPrivacyChecked>
+        <IsAgreeToContact>false</IsAgreeToContact>
+        <IsContactByEmail>false</IsContactByEmail>
+        <IsContactByPhone>false</IsContactByPhone>
+        <IsShareableCustomer>false</IsShareableCustomer>
+      </Customer>
+      <DesignedBy>
+        <PersonId>3799d40f-4c88-4bde-b3b0-d8f039164d1f</PersonId>
+        <FirstName />
+        <ModuleName />
+        <LastName />
+        <IsBlank>true</IsBlank>
+        <Title />
+        <EmailAddress />
+        <Company />
+        <Division />
+        <Phone />
+        <Fax />
+        <Address1 />
+        <Address2 />
+        <City />
+        <State>
+          <StateCode />
+          <LocalName />
+          <CountryCode />
+        </State>
+        <ZipCode />
+        <Location />
+        <BuildingName />
+        <UserName />
+        <Country>
+          <CountryCode />
+          <Market />
+          <EnglishName />
+          <LocalName />
+          <ProductMarket />
+          <States />
+        </Country>
+        <IsTermsAndPrivacyChecked>false</IsTermsAndPrivacyChecked>
+        <IsAgreeToContact>false</IsAgreeToContact>
+        <IsContactByEmail>false</IsContactByEmail>
+        <IsContactByPhone>false</IsContactByPhone>
+        <IsShareableCustomer>false</IsShareableCustomer>
+      </DesignedBy>
+      <User>
+        <PersonId>6a1233c1-9e0b-4359-84a6-1f0d45a44aa2</PersonId>
+        <FirstName>David</FirstName>
+        <ModuleName />
+        <LastName>Hu</LastName>
+        <IsBlank>true</IsBlank>
+        <Title />
+        <EmailAddress />
+        <Company>Aztec Frameworks </Company>
+        <Division>Senior Design project</Division>
+        <Phone>6504555458</Phone>
+        <Fax />
+        <Address1>917 South Delaware Street</Address1>
+        <Address2 />
+        <City>San Mateo</City>
+        <State>
+          <StateCode>US-CA</StateCode>
+          <LocalName>California</LocalName>
+          <CountryCode />
+        </State>
+        <ZipCode>94402</ZipCode>
+        <Location />
+        <BuildingName />
+        <UserName />
+        <Country>
+          <CountryCode>US</CountryCode>
+          <Market>North America</Market>
+          <EnglishName />
+          <LocalName />
+          <ProductMarket />
+          <States />
+        </Country>
+        <IsTermsAndPrivacyChecked>true</IsTermsAndPrivacyChecked>
+        <IsAgreeToContact>false</IsAgreeToContact>
+        <IsContactByEmail>false</IsContactByEmail>
+        <IsContactByPhone>false</IsContactByPhone>
+        <UserReload>false</UserReload>
+        <EnergyUsage>0.17</EnergyUsage>
+        <RegistrationEmailAddress>huhaolan0729@gmail.com</RegistrationEmailAddress>
+        <DisplayEmailAddress />
+        <PricingScheme>
+          <Name>Default</Name>
+          <Bushings />
+          <Pulleys />
+          <Belts />
+          <Settings />
+        </PricingScheme>
+        <IsDefaultUser>true</IsDefaultUser>
+        <IsCurrentUser>true</IsCurrentUser>
+        <Logo>Unitta</Logo>
+        <ProductMarket>NorthAmerica</ProductMarket>
+        <ProxyInfo>
+          <DontShowAgain>false</DontShowAgain>
+          <UseProxy>false</UseProxy>
+          <UseInternet>true</UseInternet>
+          <ProxyHost />
+          <ProxyPort>0</ProxyPort>
+          <ProxyUser />
+          <ProxyDomain />
+          <ProxyPassword />
+          <RememberProxy>false</RememberProxy>
+          <MaxTimeout>500</MaxTimeout>
+        </ProxyInfo>
+        <RecentFiles />
+        <Customers />
+        <UserRights />
+        <UserLevel>Standard</UserLevel>
+      </User>
+      <LastEdited>2026-04-27T23:09:56.3086196-07:00</LastEdited>
+      <LastEditedBy>
+        <PersonId>6a1233c1-9e0b-4359-84a6-1f0d45a44aa2</PersonId>
+        <FirstName>David</FirstName>
+        <ModuleName />
+        <LastName>Hu</LastName>
+        <IsBlank>true</IsBlank>
+        <Title />
+        <EmailAddress />
+        <Company>Aztec Frameworks </Company>
+        <Division>Senior Design project</Division>
+        <Phone>6504555458</Phone>
+        <Fax />
+        <Address1>917 South Delaware Street</Address1>
+        <Address2 />
+        <City>San Mateo</City>
+        <State>
+          <StateCode>US-CA</StateCode>
+          <LocalName>California</LocalName>
+          <CountryCode />
+        </State>
+        <ZipCode>94402</ZipCode>
+        <Location />
+        <BuildingName />
+        <UserName />
+        <Country>
+          <CountryCode>US</CountryCode>
+          <Market>North America</Market>
+          <EnglishName />
+          <LocalName />
+          <ProductMarket />
+          <States />
+        </Country>
+        <IsTermsAndPrivacyChecked>true</IsTermsAndPrivacyChecked>
+        <IsAgreeToContact>false</IsAgreeToContact>
+        <IsContactByEmail>false</IsContactByEmail>
+        <IsContactByPhone>false</IsContactByPhone>
+        <UserReload>false</UserReload>
+        <EnergyUsage>0.17</EnergyUsage>
+        <RegistrationEmailAddress>huhaolan0729@gmail.com</RegistrationEmailAddress>
+        <DisplayEmailAddress />
+        <PricingScheme>
+          <Name>Default</Name>
+          <Bushings />
+          <Pulleys />
+          <Belts />
+          <Settings />
+        </PricingScheme>
+        <IsDefaultUser>true</IsDefaultUser>
+        <IsCurrentUser>true</IsCurrentUser>
+        <Logo>Unitta</Logo>
+        <ProductMarket>NorthAmerica</ProductMarket>
+        <ProxyInfo>
+          <DontShowAgain>false</DontShowAgain>
+          <UseProxy>false</UseProxy>
+          <UseInternet>true</UseInternet>
+          <ProxyHost />
+          <ProxyPort>0</ProxyPort>
+          <ProxyUser />
+          <ProxyDomain />
+          <ProxyPassword />
+          <RememberProxy>false</RememberProxy>
+          <MaxTimeout>500</MaxTimeout>
+        </ProxyInfo>
+        <RecentFiles />
+        <Customers />
+        <UserRights />
+        <UserLevel>Standard</UserLevel>
+      </LastEditedBy>
+      <FacilityId>-1</FacilityId>
+    </Design>
+  </DriveProblems>
+  <DesignLibraries>
+    <Libraries />
+    <DesignIds />
+  </DesignLibraries>
+</Project>
